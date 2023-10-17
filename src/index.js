@@ -16,6 +16,6 @@ app.get('/', async (req, res)=> {
     }
 });
 
-const port = process.env.PORT || 3000;
+const porta = process.env.PORT;
 
-app.listen(port, () => console.log(`Servidor Up na porta: ${port}`));
+app.listen(porta, () => console.log(`Servidor Up na porta: ${porta}`));
